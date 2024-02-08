@@ -49,6 +49,9 @@ h1 {
 	margin: 10px;
 	height: 63px;
 	background-color: white;
+	text-overflow: ellipsis; 
+	white-space: nowrap;
+	overflow: hidden; 
 	border: grey inset 4px;
 	text-align: right;
 	letter-spacing: 3px;
