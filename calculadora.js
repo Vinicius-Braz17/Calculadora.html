@@ -35,26 +35,32 @@ function funcaPotCubo() {
 /* Funções da calculadora*/
 
 
+
 /*Funções para mudar a cor de fundo*/
 
 function turnpink() {
 	document.getElementById("sessaoCalculadora").style.backgroundImage = 'linear-gradient(to bottom right, #c409e6, rgb(231, 227, 227))';
+	document.querySelector(".title").style.color = '#c409e6';
 };
 
 function turnblue() {
 	document.getElementById("sessaoCalculadora").style.backgroundImage = 'linear-gradient(to bottom right, blue, rgb(231, 227, 227))';
+	document.querySelector(".title").style.color = 'blue';
 };
 
 function turnred() {
 	document.getElementById("sessaoCalculadora").style.backgroundImage = 'linear-gradient(to bottom right, red, rgb(231, 227, 227))';
+	document.querySelector(".title").style.color = 'red';
 };
 
 function turnorange() {
 	document.getElementById("sessaoCalculadora").style.backgroundImage = 'linear-gradient(to bottom right, orange, rgb(231, 227, 227))';
+	document.querySelector(".title").style.color = 'orange';
 };
 
 function turnorgreen() {
 	document.getElementById("sessaoCalculadora").style.backgroundImage = 'linear-gradient(to bottom right, green, rgb(231, 227, 227))';
+	document.querySelector(".title").style.color = 'green';
 };
 
 /*Funções para mudar a cor de fundo*/
